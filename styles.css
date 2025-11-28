@@ -6,6 +6,12 @@ body {
     padding: 20px;
 }
 
+article {
+max-width: 800px;
+margin: 20px auto;
+padding: 20px;
+}
+
 h1, h2, h3, p {
     color: white;
 }
