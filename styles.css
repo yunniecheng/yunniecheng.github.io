@@ -44,9 +44,9 @@ a:hover {
 }
 
 .text-block {
-    max-width: 300px;   /* limits width */
-    margin: 0 auto;     /* centers the text block */
-    text-align: center; /* optional */
+    max-width: 300px;   
+    margin: 0 auto;     
+    text-align: center; 
 }
 
 footer {
