@@ -27,7 +27,7 @@ img {
     margin: 10px;
 }
 
-a {
+.cute-btn {
     color: #fff;
     font-weight: bold;
     text-decoration: none;
@@ -38,7 +38,7 @@ a {
     transition: 0.3s ease;
 }
 
-a:hover {
+.cute-btn:hover {
     background-color: rgba(255, 20, 147, 0.9);
     transform: scale(1.05);
 }
