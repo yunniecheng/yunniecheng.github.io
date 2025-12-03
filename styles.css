@@ -116,34 +116,34 @@ img:hover {
 }
 
 table {
+    width: 80%;
     margin: 30px auto;
     border-collapse: collapse;
-    width: 70%;
-    background: rgba(255, 255, 255, 0.15);
-    border-radius: 15px;
+    border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-}
-
-caption {
-    font-size: 24px;
-    margin-bottom: 10px;
-    font-weight: bold;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
 }
 
 thead th {
-    background: rgba(255, 105, 180, 0.7);
-    padding: 12px;
-    font-size: 18px;
+    background: #f195c9;
+    padding: 15px;
+    font-size: 20px;
 }
 
 tbody td {
-    padding: 12px;
-    font-size: 17px;
+    padding: 15px;
+    font-size: 18px;
+    background: rgba(255, 192, 203, 0.55); /* make both columns match */
 }
 
-tbody tr:nth-child(even) {
-    background: rgba(255, 255, 255, 0.12);
+tbody tr:nth-child(even) td {
+    background: rgba(255, 192, 203, 0.35); /* cute alternating rows */
+}
+
+caption {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 footer {
